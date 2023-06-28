@@ -1,0 +1,88 @@
+
+
+body {
+    background-color: black;
+    font-size: 17px; 
+    color:  hsl(0, 0%, 100%);
+    font-family: Overpass, arial;
+}
+
+.main {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg,  hsl(216, 10%, 10%) 20%, hsl(213, 19%, 18%) 
+    96%);
+    margin-top: 6vw;
+    margin-bottom: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32vw;
+    width: 28vw;
+    border-radius: 2vw;
+    z-index: -2;
+}
+
+
+.div-img {
+    background-color: rgb(71, 73, 75);
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 1.5vw;
+    border-radius: 70px;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    z-index: 0;
+}
+
+h1 {
+    margin-top: 5vw;
+    margin-left: 1.2vw;
+    padding-bottom: 3vw;
+}
+
+ svg {
+    margin-left: 0.8vw;
+    padding: -2px;
+    margin-top: 0.8vw;
+}
+
+.first {
+    margin-left: 1.2vw;
+    font-size: 1.1vw;
+    color: hsl(217, 12%, 63%) ;
+}
+
+.opinion {
+    border-radius: 50px;
+    height: 3.5vw;
+    width: 3.5vw;
+    position: relative;
+    left: 1.5vw;
+    margin-left: 1vw;
+    top: 2vw;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+}
+
+.opinion:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
+}
+
+
+.submit {
+    position: relative;
+    top: 4vw;
+    left: 4vw;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 5vw;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 1.1vw;
+}
+
+.submit:hover {
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
